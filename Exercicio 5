@@ -1,0 +1,15 @@
+int[] numeros = new int[20];
+int[] pares = new int[20];
+int[] impares = new int[20];
+
+Console.WriteLine("Digite um número");
+Convert.ToDouble(Console.ReadLine());
+
+for (int i = 1; i < 20; i++)
+{
+  Console.Write("Digite mais um número " + (i + 1) + ": ");
+  numeros[i] = Convert.ToInt32(Console.ReadLine());
+
+
+  if (numeros[i] % 2 == 0)
+  {
